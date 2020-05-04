@@ -1,0 +1,26 @@
+.Meme {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  text-align:  center;
+  text-transform: uppercase;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 0px 0px 2px #111;
+}
+
+.Meme:hover {
+  opacity: .8;
+}
+
+h3:nth-child(2) {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 0 2px 0;
+  width: 200px;
+}
